@@ -1,0 +1,8 @@
+/* Bitfolk Pixel. SIL Open Font License 1.1. https://bitfolk.ai/font */
+@font-face {
+  font-family: "Bitfolk Pixel";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/BitfolkPixel.woff2") format("woff2"), url("./fonts/BitfolkPixel.ttf") format("truetype");
+}

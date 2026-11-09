@@ -1,0 +1,18 @@
+{
+  "name": "bitfolk-pixel",
+  "version": "1.1.0",
+  "description": "Bitfolk Pixel: a free, open source pixel font with Western European language support. TTF, OTF and WOFF2.",
+  "keywords": ["font", "pixel font", "bitmap font", "8-bit", "typeface", "woff2", "ofl", "game font"],
+  "homepage": "https://bitfolk.ai/font",
+  "license": "OFL-1.1",
+  "author": "Bitfolk (https://bitfolk.ai)",
+  "style": "index.css",
+  "main": "index.css",
+  "files": ["index.css", "fonts", "OFL.txt", "README.md"],
+  "exports": {
+    ".": "./index.css",
+    "./index.css": "./index.css",
+    "./fonts/*": "./fonts/*",
+    "./OFL.txt": "./OFL.txt"
+  }
+}
